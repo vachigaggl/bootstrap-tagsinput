@@ -1,20 +1,23 @@
 {
   "name": "bootstrap-tagsinput",
   "title": "Bootstrap Tags Input",
-  "version": "0.8.0",
-  "description": "jQuery plugin providing a Twitter Bootstrap user interface for managing tags.",
+  "version": "0.9.0",
+  "description": "jQuery plugin providing a  Boostrap 4 user interface for managing tags.",
   "scripts": {
     "test": "karma start --single-run --no-auto-watch"
   },
   "main": "dist/bootstrap-tagsinput.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/timschlechter/bootstrap-tagsinput.git"
+    "url": "git://github.com/vachigaggl/bootstrap-tagsinput.git"
   },
   "author": "Tim Schlechter",
   "contributors": [
     {
       "name": "Luckner Jr Jean-Baptiste"
+    },
+    {
+      "name": "Christian Schultz"
     }
   ],
   "license": "MIT",
@@ -33,7 +36,7 @@
     "grunt": "~0.4.1",
     "grunt-banner": "^0.6.0",
     "grunt-bower-task": "~0.4.0",
-    "grunt-cli": "~0.1.13",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-jquerymanifest": "~0.1.4",
